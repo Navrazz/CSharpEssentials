@@ -1,7 +1,7 @@
 ﻿using System;
-using FactoryPattern.Dialogs;
+using Creational.FactoryPattern.Dialogs;
 
-namespace FactoryPattern
+namespace Creational.FactoryPattern
 {
     public class Client
     {
