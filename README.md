@@ -1,3 +1,8 @@
 # Project with C# and software development essentials.
-* Design patterns:
-  * Factory pattern
+1. Design patterns:
+ * Creational patterns:
+   * Factory pattern
+
+2. Useful links:
+ * Design Patterns:
+   * https://refactoring.guru/design-patterns
