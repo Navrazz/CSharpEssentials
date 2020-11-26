@@ -1,5 +1,5 @@
 ﻿
-namespace FactoryPattern.Models
+namespace Creational.FactoryPattern.Models
 {
     public class HtmlButton : IButton
     {

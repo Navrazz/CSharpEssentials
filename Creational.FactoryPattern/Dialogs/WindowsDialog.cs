@@ -1,6 +1,6 @@
-﻿using FactoryPattern.Models;
+﻿using Creational.FactoryPattern.Models;
 
-namespace FactoryPattern.Dialogs
+namespace Creational.FactoryPattern.Dialogs
 {
     public class WindowsDialog : Dialog
     {
