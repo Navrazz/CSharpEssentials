@@ -2,7 +2,7 @@
 ## 1. Design patterns:
  * Creational patterns:
    - [x] Factory 
-   - [ ] Abstract Factory
+   - [x] Abstract Factory
    - [ ] Builder
    - [ ] Prototype
    - [ ] Singleton
