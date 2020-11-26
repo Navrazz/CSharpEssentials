@@ -2,6 +2,7 @@
 
 namespace Creational.FactoryPattern.Dialogs
 {
+    //Creator
     public abstract class Dialog
     {
         public abstract IButton CreateButton();
