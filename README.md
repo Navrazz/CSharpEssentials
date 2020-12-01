@@ -3,7 +3,7 @@
  * Creational patterns:
    - [x] Factory 
    - [x] Abstract Factory
-   - [ ] Builder
+   - [x] Builder
    - [ ] Prototype
    - [ ] Singleton
    
@@ -30,6 +30,7 @@
    
  * Useful links:
     * https://refactoring.guru/design-patterns
+    * https://exceptionnotfound.net/introducing-the-daily-design-pattern/
     
 ## 2. Design principles:
  - [ ] Single-responsibility principle
