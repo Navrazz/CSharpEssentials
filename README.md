@@ -5,7 +5,7 @@
    - [x] Abstract Factory
    - [x] Builder
    - [x] Prototype
-   - [ ] Singleton
+   - [x] Singleton
    
  * Structural Patterns
    - [ ] Adapter
