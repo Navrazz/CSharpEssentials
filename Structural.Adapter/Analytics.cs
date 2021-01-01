@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Newtonsoft.Json;
+using System.Text.Json;
 using Structural.Adapter.Model;
 
 namespace Structural.Adapter
@@ -10,7 +10,7 @@ namespace Structural.Adapter
 
         public Analytics(string json)
         {
-            _manufacturer = JsonConvert.DeserializeObject<List<Manufacturer>>(json);
+            _manufacturer = JsonSerializer.Deserialize<List<Manufacturer>>(json);
         }
 
         public string Report()

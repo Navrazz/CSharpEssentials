@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json;
 using System.Xml.Linq;
-using Newtonsoft.Json;
 using Structural.Adapter.Model;
 
 namespace Structural.Adapter
@@ -31,7 +31,7 @@ namespace Structural.Adapter
 
         public static string GetJson()
         {
-            var json = JsonConvert.SerializeObject(_manufacturers);
+            var json = JsonSerializer.Serialize(_manufacturers);
 
             return json;
         }

@@ -1,6 +1,6 @@
 ﻿using System.Linq;
+using System.Text.Json;
 using System.Xml.Linq;
-using Newtonsoft.Json;
 using Structural.Adapter.Model;
 
 namespace Structural.Adapter
@@ -33,7 +33,7 @@ namespace Structural.Adapter
                                     Address = m.Attribute("Address").Value,
                                 });
 
-            var json = JsonConvert.SerializeObject(manufacturers, Formatting.Indented);
+            var json = JsonSerializer.Serialize(manufacturers);
             return json;
         }
     }
