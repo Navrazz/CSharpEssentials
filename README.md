@@ -8,7 +8,7 @@
    - [x] Singleton
    
  * Structural Patterns
-   - [ ] Adapter
+   - [x] Adapter
    - [ ] Bridge
    - [ ] Composite
    - [ ] Decorator
